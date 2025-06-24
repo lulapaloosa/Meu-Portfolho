@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/ChatGPT Image 27 de mai. de 2025, 15_27_07.png" alt="avatar da Ana lu" class="rounded-circle" width="150" height="150" srcset="">
+        <img src="img/Avatar Ana lu.png" alt="avatar da Ana lu" class="rounded-circle" width="150" height="150" srcset="">
         <p class="lead">Oiii Eu sou Ana lu!</p>
         <h1>Eu estudo Programação no Alura</h1>
         <p>Sou Estudante do terceiro ano do ensino médio no Antônio Florentino. estou estudando como utilizar linguagens como HTML, CSS e JavaScript. E agora Veja os projetos
@@ -21,25 +22,139 @@
             <p class="badge bg-secondary">HTML</p>
             <p class="badge bg-secondary">CSS</p>
             <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
+            <p class="badge bg-secondary ">Scratch</p>
         </div>
     </header>
-    <main class="container">
+    <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="img/Projeto 1.jfif" class="card-img-top" alt="Imagem do projeto de corrida">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Corrida p5js</h5>
+                        <p class="card-text">Esse projeto de corrida foi criado no P5.js pensando na diversão e naquela sensação boa de competir contra o tempo.
+A ideia é simples: você controla um carrinho e precisa chegar até o final o mais rápido que conseguir.
+Não tem obstáculos no caminho, é só acelerar e tentar bater seu próprio recorde.
+Foi feito de forma criativa, como uma forma leve e divertida de brincar com programação e se divertir ao mesmo tempo!.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto 2.jfif" class="card-img-top" alt="Imagem do projeto de quente frio">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente frio!</h5>
+                        <p class="card-text">Esse jogo foi feito com P5.js e é inspirado na brincadeira clássica de "quente ou frio".
+A ideia é simples e divertida: o jogador usa o mouse para procurar um item escondido na tela.
+À medida que o ponteiro se aproxima do lugar certo, a cor de fundo muda, indicando se você está "frio" (longe) ou "quente" (perto).
+Quando você passa exatamente em cima do local onde o item está, aparece a mensagem "Encontrei!", mostrando que você conseguiu achar!
+É uma forma leve e interativa de explorar programação brincando.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/PRojeto 3.jfif" class="card-img-top" alt="Imagem do projeto de emoji">
+                    <div class="card-body">
+                        <h5 class="card-title">EMOJI S2
+                        </h5>
+                        <p class="card-text">Esse emoji foi criado com P5.js e representa aquela expressão clássica de revirar os olhos, que a gente costuma usar quando está com tédio, impaciência ou até dando uma indireta.
+A ideia surgiu de uma figurinha de app de mensagens que chamou atenção, e virou inspiração para transformar esse gesto tão comum em algo visual e divertido.
+Com formas simples e código criativo, o emoji ganhou vida de um jeito leve e descontraído, perfeito pra expressar sentimentos de um jeito diferente!.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida da lulu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <img src="img/projeto completo 1.jfif" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Lulapaloosa/full/mPAJIRzX0">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quente Frio!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <img src="img/Projeto completo 2.jfif" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Lulapaloosa/full/LsGPZUC-b">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">EMOJI S2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <img src="img/Projeto completo 3.jfif" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Lulapaloosa/full/O91yxmkckm">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/lulapaloosa">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Ana Luiza Pereira</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
